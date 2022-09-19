@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'CAT Linz';
+    src: url('../fonts/CATLinz.woff2') format('woff2'), 
+         url('../fonts/CATLinz.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul, ol, li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+input {
+    outline:none;
+}
+html, body{
+    background-color: #fff;
+}
+body {
+    font-family: 'CAT Linz';
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
+}
+section{
+    position: relative;
+    margin-bottom: 120px;
+}
