@@ -76,6 +76,9 @@ section{
     background-size: cover;
     background-position: center;
 }
+.header--white{
+    margin-bottom: 90px;
+}
 .grid-line{
     position: absolute;
     top: 0;
@@ -116,6 +119,9 @@ section{
     padding: 35px 0;
     border-bottom: 1px solid #fff;
 }
+.header__top--white{
+    border-bottom: 1px solid #000;
+}
 .header__box{
     display: flex;
     justify-content: space-between;
@@ -154,6 +160,9 @@ section{
     padding: 10px 9px 9px 9px;
     border: 1px solid transparent;
     transition: 0.3s all;
+}
+.menu__list__link--black{
+    color: #000;
 }
 .menu__list__link:hover{
     color: #FFC702;
@@ -261,6 +270,48 @@ section{
 }
 .box--jcenter{
     justify-content: center;
+}
+.box__half--news{
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.breadcrumbs{
+    margin-bottom: 50px;
+}
+.breadcrumbs__list{
+    display: flex;
+}
+.breadcrumbs__list__items{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    padding-right: 15px;
+    align-items: center;
+}
+.breadcrumbs__list__items span{
+    color: #FFC703;
+}
+.breadcrumbs__list__items:after{
+    content: "•";
+    width: 15px;
+    height: 15px;
+    font-size: 35px;
+    line-height: 75%;
+    text-align: center;
+    margin-bottom: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.breadcrumbs__list__items__link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    padding-right: 15px;
+    color: #000;
+}
+.breadcrumbs__list__items:last-child::after{
+    display: none;
 }
 .section-title{
     font-size: 85px;
@@ -687,4 +738,24 @@ section{
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
+}
+.news{
+    margin-bottom: 90px;
+}
+.news__blog{
+    display: block;
+    margin-bottom: 30px;
+}
+.news__prev{
+    width: 100%;
+}
+.news__blog h2{
+    font-size: 52px;
+    line-height: 96%;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 20px;
+}
+.news__blog--three h2{
+    font-size: 32px;
 }
