@@ -1070,3 +1070,10 @@ section{
     color: #000000;
     padding-bottom: 20px;
 }
+.comments{
+    margin-bottom: 90px;
+}
+.comments__img{
+    width: 100%;
+    padding-bottom: 30px;
+}
