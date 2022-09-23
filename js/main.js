@@ -23,6 +23,22 @@ $(document).ready(function() {
 		let idElem = elem.getAttribute('id');
 		jQuery("#"+idElem).addClass('catalog__box__items__link--active');
 	});
+	$('.project__slider--vertical').slick({
+        vertical: true,
+        verticalSwiping: true,
+        slidesToShow: 1,
+        autoplay: true,
+        dots: false,
+        arrows: false,
+        speed: 4000,
+    });
+    $('.project__slider--horisontal').slick({
+        slidesToShow: 1,
+        autoplay: true,
+        dots: false,
+        arrows: false,
+        speed: 2500,
+    });
 	$('.cart__slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -50,4 +66,16 @@ $(document).ready(function() {
 		  }
 		]
 	});
+});
+/* scrollto */
+
+$('.scrollto a').on('click', function scroll(e) {
+    e.preventDefault();
+    let href = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(href).offset().top - 140
+    }, {
+        duration: 370,
+        easing: "linear"
+    });
 });
