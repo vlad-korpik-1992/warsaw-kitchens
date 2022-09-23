@@ -501,10 +501,13 @@ section{
     display: flex;
     justify-content: flex-end;
 }
-.reviews__inner p{
-    color: #fff;
-    max-width: 568px;
-    min-height: 120px;
+.reviews__img{
+    object-fit: cover;
+    height: 491px;
+    object-position: right;
+}
+.reviews__img--center{
+    object-position: center;
 }
 .header__content__link--reviews{
     width: 100%;
