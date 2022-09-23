@@ -49,11 +49,12 @@ input {
 }
 html, body{
     background-color: #fff;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'CAT Linz', 'sans-serif';
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     font-weight: normal;
     font-style: normal;
     color: #000;
@@ -155,7 +156,7 @@ section{
     font-weight: normal;
     font-style: normal;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     color: #FFFFFF;
     padding: 10px 9px 9px 9px;
     border: 1px solid transparent;
@@ -512,8 +513,8 @@ section{
     justify-content: flex-end;
 }
 .reviews__img{
-    object-fit: cover;
-    height: 491px;
+    width: 100%;
+    min-height: 425px;
     object-position: right;
 }
 .reviews__img--center{
@@ -535,7 +536,7 @@ section{
     flex: 0 0 738px;
     max-width: 738px;
     font-size: 64px;
-    line-height: 62px;
+    line-height: 96%;
     text-transform: uppercase;
     color: #FFFFFF;
     padding-bottom: 16px;
@@ -568,8 +569,14 @@ section{
 .material__menu__list{
     display: flex;
 }
+.material__menu__list--dsb{
+    justify-content: space-between;
+}
 .material__menu__list__items{
     padding-right: 51px;
+}
+.material__menu__list__items--pr0{
+    padding-right: 0;
 }
 .material__menu__list__link{
     display: block;
@@ -694,7 +701,7 @@ section{
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 121%;
+    line-height: 120%;
     color: #FFFFFF;
     padding-bottom: 35px;
 }
@@ -732,7 +739,7 @@ section{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     padding: 16px 22px;
     border: 2px solid #FFFFFF;
     color: #fff;
@@ -745,7 +752,7 @@ section{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     color: #fff;
 }
 .form__btn{
@@ -815,7 +822,7 @@ section{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     color: #000000;
 }
 .price__title{
@@ -984,7 +991,7 @@ section{
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 120%;
     color: #000;
     transition: 0.3s all;
 }
@@ -1019,7 +1026,7 @@ section{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 122%;
     color: #000000;
     padding-bottom: 23px;
 }
@@ -1028,7 +1035,7 @@ section{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     color: #000000;
     padding-bottom: 20px;
 }
@@ -1043,7 +1050,7 @@ section{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     color: #000000;
     padding-bottom: 20px;
 }
@@ -1079,7 +1086,7 @@ section{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     color: #000000;
     padding-bottom: 20px;
 }
@@ -1114,7 +1121,7 @@ section{
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 39px;
+    line-height: 122%;
     color: #000000;
     padding: 8px;
     border: 1px solid transparent;
@@ -1186,7 +1193,7 @@ section{
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 120%;
     text-decoration-line: underline;
     color: #000000;
     display: block;
