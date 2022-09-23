@@ -13,6 +13,16 @@ $(document).ready(function() {
 		$('.fittings__content').removeClass('fittings__content--active');
 		jQuery("#"+id).addClass('fittings__content--active');
 	});
+	$('.catalog__box__items__link').click(function (e) {
+        e.preventDefault();
+        let elem = e.target;
+		let id = '1' + elem.getAttribute('id');
+		$('.catalog__content').removeClass('catalog__content--open');
+		$('.catalog__box__items__link').removeClass('catalog__box__items__link--active');
+		jQuery("#"+id).addClass('catalog__content--open');
+		let idElem = elem.getAttribute('id');
+		jQuery("#"+idElem).addClass('catalog__box__items__link--active');
+	});
 	$('.cart__slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
