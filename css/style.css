@@ -1103,8 +1103,6 @@ section{
 .catalog__box{
     display: flex;
     justify-content: center;
-    margin-left: -30px;
-    margin-right: -30px;
     margin-bottom: 40px;
 }
 .catalog__box__items{
@@ -1498,6 +1496,19 @@ section{
         font-size: 42px;
         padding-bottom: 35px;
     }
+    .catalog__link:before{
+        position: absolute;
+    }
+    .catalog__link__down{
+        display: flex;
+    }
+    .header__content__circle--dn{
+        display: none;
+    }
+    .header__contetn__text--catalog{
+        padding-left: 0;
+        font-size: 30px;
+    }
 }
 @media (max-width: 767px){
     .header__content h1 {
@@ -1575,6 +1586,18 @@ section{
     .single__content p{
         text-indent: 25px;
     }
+    .catalog__box{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .catalog__box__items{
+        padding-left: 0;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+    .catalog__box__items__link{
+        font-size: 24px;
+    }
 }
 @media (max-width: 575px){
     .material__menu__list{
@@ -1593,6 +1616,10 @@ section{
     }
     .header__contetn__text{
         padding-left: 50px;
+    }
+    .header__contetn__text--catalog{
+        padding-left: 0;
+        font-size: 30px;
     }
     .header__content h1 {
         font-size: 43px;
@@ -1614,6 +1641,10 @@ section{
     }
     .header__contetn__text{
         font-size: 16px;
+    }
+    .header__contetn__text--catalog{
+        padding-left: 0;
+        font-size: 30px;
     }
     .fittings__link{
         padding: 0;
