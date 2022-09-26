@@ -1262,6 +1262,9 @@ section{
     .stages__content h3{
         font-size: 25px;
     }
+    .news__blog h2{
+        font-size: 43px;
+    }
 }
 @media (max-width: 991px){
     .grid-block{
@@ -1342,6 +1345,9 @@ section{
         height: 2px;
         background-color: #fff;
     }
+    .menu__btn--white, .menu__btn-element:before, .menu__btn-element:after {
+        background-color: #000;
+    }
     .menu__btn-element:before, .menu__btn-element:after {
         content: '';
         display: block;
@@ -1420,6 +1426,16 @@ section{
     }
     .benefits__content{
         padding-bottom: 40px;
+    }
+    .menu__list__link--black{
+        color: #fff;
+    }
+    .news__blog h2 {
+        font-size: 36px;
+    }
+    .box__half--news {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }
 @media (max-width: 767px){
@@ -1556,6 +1572,15 @@ section{
     }
     .header__content__circle__icon--down{
         left: -8px;
+    }
+    .breadcrumbs__list__items__link{
+        font-size: 16px;
+    }
+    .breadcrumbs__list__items span{
+        font-size: 16px;
+    }
+    .news__blog h2 {
+        font-size: 30px;
     }
 }
 @media (max-width: 374px){
