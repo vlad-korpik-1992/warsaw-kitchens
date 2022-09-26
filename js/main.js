@@ -1,4 +1,10 @@
 $(document).ready(function() {
+	$('.menu__btn').on('click', function (e) {
+        e.preventDefault();
+        $('.menu__btn').toggleClass('menu__btn--close');
+        $('.menu__list').toggleClass('menu__list--active');
+        $('.menu__btn-element').toggleClass('menu__btn-element_close');
+    });
     $('.material__menu__list__link').click(function (e) {
         e.preventDefault();
         let elem = e.target;
