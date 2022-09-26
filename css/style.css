@@ -1265,6 +1265,9 @@ section{
     .news__blog h2{
         font-size: 43px;
     }
+    .single-title{
+        font-size: 39px;
+    }
 }
 @media (max-width: 991px){
     .grid-block{
@@ -1437,6 +1440,10 @@ section{
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .single__date{
+        top: 140px;
+        bottom: 0;
+    }
 }
 @media (max-width: 767px){
     .header__content h1 {
@@ -1502,6 +1509,17 @@ section{
     }
     .reviews__img{
         min-height: auto;
+    }
+    .single__date {
+        top: inherit;
+        bottom: 15px;
+    }
+    .single-title{
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .single__content p{
+        text-indent: 25px;
     }
 }
 @media (max-width: 575px){
@@ -1581,6 +1599,12 @@ section{
     }
     .news__blog h2 {
         font-size: 30px;
+    }
+    .single-title {
+        font-size: 31px;
+    }
+    .breadcrumbs__list{
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 374px){
