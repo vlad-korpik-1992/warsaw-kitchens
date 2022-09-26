@@ -1348,7 +1348,7 @@ section{
         height: 2px;
         background-color: #fff;
     }
-    .menu__btn--white, .menu__btn-element:before, .menu__btn-element:after {
+    .menu__btn--white, .menu__btn--white:before, .menu__btn--white:after {
         background-color: #000;
     }
     .menu__btn-element:before, .menu__btn-element:after {
@@ -1443,6 +1443,23 @@ section{
     .single__date{
         top: 140px;
         bottom: 0;
+    }
+    .contacts__info{
+        padding-top: 45px;
+        margin-top: 0;
+    }
+    .contacts__info__items:first-child, .contacts__info__items:first-child a{
+        color: #000;
+    }
+    .box__seventh{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contacts__info__items{
+        padding-bottom: 30px;
+    }
+    .contacts__info__items h3{
+        font-size: 42px;
     }
 }
 @media (max-width: 767px){
